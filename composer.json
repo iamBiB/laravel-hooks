@@ -1,0 +1,31 @@
+{
+   "name":"iambib/laravel-hooks",
+   "description":"Laravel Hooks and Plugins package",
+   "license":"BSD-3-Clause",
+   "keywords":[
+      "laravel",
+      "hooks",
+      "plugins",
+   ],
+   "homepage":"https://github.com/iambib/",
+   "require":{
+      "php":">= 8.0.2",
+      "laravel/framework":"*"
+   },
+   "require-dev":{
+
+   },
+   "suggest":{
+
+   },
+   "autoload":{
+      "psr-4":{
+         "iAmBiB\\Hooks\\":"src/"
+      }
+   },
+   "config":{
+      "allow-plugins":{
+
+      }
+   }
+}
